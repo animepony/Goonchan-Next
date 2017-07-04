@@ -1,0 +1,204 @@
+/* Thanks bunkerchan, for obvious reasons. You are truly based */
+
+body {
+	background: #EEF2FF url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADICAIAAACmkByiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAE5JREFUKJFjunj1HRMDAwNWzMiILsZIpDpcarDrx28GI17zUeUYiXITLrdg08PISKyfGfGYgT38cLkRm50Dbx9944KYdIUrbohNV0SoAwD1FwRwgMmDbgAAAABJRU5ErkJggg==') repeat-x 50% 0%;
+	color: #000000;
+	font-family: arial,helvetica,sans-serif;
+}
+hr {
+	border: none;
+	border-top: 1px solid #B7C5D9;
+}
+
+/* LINKS */
+a, .hideButton, .unhideButton, .embedButton, .navClickable, #closeWatcherMenuButton, .watchButton, .watchedCellCloseButton, .hideFileButton {
+	color: #34345C;
+}
+a:hover, .hideButton:hover, .unhideButton:hover, .embedButton:hover, .navClickable:hover, #closeWatcherMenuButton:hover, .watchButton:hover, .watchedCellCloseButton:hover, .hideFileButton:hover {
+	color: #DD0000;
+	text-shadow: none; /* gets rid of the stupid glow effect */
+}
+
+/* BOARD TITLE */
+.boardHeader p {
+	color: #AF0A0F;
+	font-family: Tahoma,sans-serif;
+}
+.boardHeader p#labelName {
+	font-size: 28px;
+	font-weight: bold;
+}
+.boardHeader p#labelDescription {
+	font-size: 8pt;
+}
+
+/* REPLY + MAKE THREAD FIELDS */
+#newPostFieldset, #quick-reply table {
+	border: 1px dashed #B7C5D9;
+}
+input, select, textarea {
+	background: #FFFFFF;
+	border-radius: 0px;
+	border: 1px solid #AAAAAA;
+	color: #000000;
+	font-family: arial,helvetica,sans-serif;
+}
+input:hover, select:hover, textarea:hover {
+	border: 1px solid #9988EE;
+}
+
+/* BUTTON, DROPZONE, CAPTCHA */
+input[type="button"], input[type="submit"], button {
+	background: #d4d0c8;
+	border-radius: 0px;
+	color: #000000;
+	font-family: arial,helvetica,sans-serif;
+	font-weight: 400;
+}
+.dropzone, .selectedCell {
+	background: #DADCE3;
+	border: 2px dashed rgba(125, 125, 125, 0.4);
+	border-radius: 0px;
+	color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	transition: 0.2s;
+	text-align:center;
+}
+.subCaptchaDiv {
+    text-align: center;
+}
+
+/* ANNOUNCEMENT */
+#divMessage {
+	color: #FF0000;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/* THREAD FIELDS */
+.title, .unhideButton {
+	font-weight: 400; /* makes timestamp not bold */
+}
+.labelSubject { /* subject */
+	color: #0F0C5D;
+	font-weight: bold; /* needed for catalog */
+}
+.linkName { /* email field, sage */
+	font-weight: bold;
+	color: #34345C;
+	text-decoration: underline;
+}
+.linkName:hover {
+	color: #DD0000;
+}
+.noEmailName, .noEmailName:hover { /* regular anonymous */
+	color: #117743;
+	text-decoration: none;
+	text-shadow: none;
+}
+.linkSelf, .linkQuote { /* post number */
+	color: #000000;
+}
+.linkSelf:hover, .linkQuote:hover {
+	color: #DD0000;
+}
+.panelBacklinks a { /* backlinks */
+	color: #34345C;
+}
+.panelBacklinks a:hover {
+	color: #DD0000;
+}
+.quoteLink, .quoteLink:hover { /* >> */
+	color: #D00D00;
+	text-decoration: underline;
+}
+.labelRole:before { /* capcode prefix */
+	font-size: 10px;
+}
+.labelOmission { /* posts omitted */
+	color: #707070;
+}
+.labelLastEdit { /* edited post */
+	font-size: 10px;
+}
+.labelId { /* id font */
+	font-size: 12px;
+}
+
+/* THREAD POSTS */
+.innerPost {  /* normal reply */
+	background-color: #D6DAF0;
+	border: 1px solid #B7C5D9;
+	border-left: none;
+	border-top: none;
+	border-radius: 0px;
+}
+.markedPost { /* highlighted reply */
+	background: #D6BAD0;
+	border: 1px solid #BA9DBF;
+	border-left: none;
+	border-top: none;
+	border-radius: 0px;
+}
+span.spoiler:hover { /* spoiler hover */
+	background: #000000;
+	color: #FFFFFF;
+}
+
+/* QUICK REPLY */
+#quick-reply table {
+	background-color: #D6DAF0;
+	border: 1px solid #A1A4B4;
+}
+#quick-reply table {
+	padding: 0em;
+}
+#quick-reply th {
+	background-color: #9988EE;
+}
+.post-table td {
+    padding-bottom: 0em;
+}
+
+/* NAVIGATION BAR */
+nav {
+	background-color: #D6DAF0;
+	border-bottom: 1px solid #8899AA;
+	color: #8899AA;
+	font-size: 12px;margin: 0 0.2em;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+/* DELETE AND REPORT */
+.reportFieldset {
+	border: 1px dashed #B7C5D9;
+}
+
+/* CATALOG */
+#catalogId {
+	color: #AF0A0F;
+}
+.catalogCell {
+	background: #DDE0F0;
+	border: 1px solid #B7B9C4;
+	border-radius: 0px;
+}
+
+/* BOARD LIST */
+.boardPages {
+    color: #8899AA;
+}
+
+/* FRONT PAGE */
+#divLatestPosts .latestPostCell {
+    background: #D6DAF0;
+    border: 1px solid #B7C5D9;
+}
+
+/* Watched threads menu box */
+#watchedMenu{
+	background: #D6DAF0;
+	border: 1px dashed #8899AA;
+}
+
