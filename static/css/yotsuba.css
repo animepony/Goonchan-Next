@@ -54,6 +54,7 @@ input[type="button"], input[type="submit"], button {
 	color: #000000;
 	font-family: arial,helvetica,sans-serif;
 	font-weight: 400;
+	border: none;		/* Cheap fix, but it works */
 }
 .dropzone, .selectedCell {
 	background: #DADCE3;
@@ -63,6 +64,8 @@ input[type="button"], input[type="submit"], button {
 	cursor: pointer;
 	transition: 0.2s;
 	text-align:center;
+	font-family: sans-serif;	/* We don't like monospace, do we? */
+	font-weight: normal;
 }
 .subCaptchaDiv {
     text-align: center;
@@ -200,5 +203,15 @@ nav {
 #watchedMenu{
 	background: #D6DAF0;
 	border: 1px dashed #8899AA;
+}
+
+/* CHECKBOX ON POST FORM */
+input[type=checkbox]#checkboxSpoiler+label:before {
+  color: #6574cc;
+}
+
+/* Remove drop-shadow effect from post form, etc */
+#postBox input:focus, #postBox textarea:focus {
+  box-shadow: none;
 }
 
