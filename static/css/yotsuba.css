@@ -7,7 +7,7 @@ body {
 }
 hr {
 	border: none;
-	border-top: 1px solid #B7C5D9;
+	border-top: 1px solid #D9BFB7;
 }
 
 /* LINKS */
@@ -130,17 +130,19 @@ input[type="button"], input[type="submit"], button {
 
 /* THREAD POSTS */
 .innerPost {  /* normal reply */
+	color: #800000;
 	background-color: #F0E0D6;
-	border: 1px solid #B7C5D9;
+	border: 1px solid #D9BFB7;
 	border-left: none;
 	border-top: none;
 	border-radius: 0px;
 	padding-top: 0px;	/*...Temp fix for ugly padding */
-    overflow: initial;
+    	overflow: initial;
 }
 .markedPost { /* highlighted reply */
+	color: #800000;
 	background-color: #F0C0B0;
-	border: 1px solid #BA9DBF;
+	border: 1px solid #D9BFB7;
 	border-left: none;
 	border-top: none;
 	border-radius: 0px;
@@ -170,8 +172,8 @@ span.spoiler:hover { /* spoiler hover */
 
 /* NAVIGATION BAR */
 nav {
-	background-color: #D6DAF0;
-	border-bottom: 1px solid #8899AA;
+	background-color: #F0E0D6;
+	border-bottom: 1px solid #D9BFB7;
 	color: #8899AA;
 	font-size: 12px;margin: 0 0.2em;
 	padding-top: 1px;
