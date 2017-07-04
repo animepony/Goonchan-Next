@@ -138,6 +138,7 @@ input[type="button"], input[type="submit"], button {
 	border-radius: 0px;
 	padding-top: 0px;	/*...Temp fix for ugly padding */
     	overflow: initial;
+	max-width: 94%;
 }
 .markedPost { /* highlighted reply */
 	color: #800000;
@@ -147,7 +148,8 @@ input[type="button"], input[type="submit"], button {
 	border-top: none;
 	border-radius: 0px;
 	padding-top: 0px;	/*...Temp fix for ugly padding */
-    overflow:initial;
+    	overflow:initial;
+	max-width: 94%;
 }
 span.spoiler:hover { /* spoiler hover */
 	background: #000000;
@@ -233,4 +235,8 @@ input[type=checkbox]#checkboxSpoiler+label:before {
 /* Hide weird "preview" button that really makes no sense */
 .linkPreview {
   display: none;
+}
+
+.innerOP {
+  color: #800000;
 }
