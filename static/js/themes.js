@@ -6,6 +6,10 @@ var themes = [ {
   file : 'yotsuba.css',
   label : 'Yotsuba (NOT COMPLETED)',
   id : 'yotsuba'
+}, {
+  file : 'goon.css',
+  label : 'Saloon',
+  id : 'goon'
 } ];
 
 var customCss;
