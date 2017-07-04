@@ -135,6 +135,7 @@ input[type="button"], input[type="submit"], button {
 	border-left: none;
 	border-top: none;
 	border-radius: 0px;
+	padding-top: 0px;	/*...Temp fix for ugly padding */
 }
 .markedPost { /* highlighted reply */
 	background: #D6BAD0;
@@ -142,6 +143,7 @@ input[type="button"], input[type="submit"], button {
 	border-left: none;
 	border-top: none;
 	border-radius: 0px;
+	padding-top: 0px;	/*...Temp fix for ugly padding */
 }
 span.spoiler:hover { /* spoiler hover */
 	background: #000000;
