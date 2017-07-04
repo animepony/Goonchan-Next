@@ -1,7 +1,7 @@
 /* Thanks bunkerchan, for obvious reasons. You are truly based */
 
 body {
-	background: #FFFFEE url('background.png') repeat-x 50% 0%;
+	background: #EEF2FF url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADICAIAAACmkByiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAE5JREFUKJFjunj1HRMDAwNWzMiILsZIpDpcarDrx28GI17zUeUYiXITLrdg08PISKyfGfGYgT38cLkRm50Dbx9944KYdIUrbohNV0SoAwD1FwRwgMmDbgAAAABJRU5ErkJggg==') repeat-x 50% 0%;
 	color: #000000;
 	font-family: arial,helvetica,sans-serif;
 }
@@ -130,22 +130,24 @@ input[type="button"], input[type="submit"], button {
 
 /* THREAD POSTS */
 .innerPost {  /* normal reply */
-	background-color: #F0E0D6;
+	background-color: #D6DAF0;
 	border: 1px solid #B7C5D9;
 	border-left: none;
 	border-top: none;
 	border-radius: 0px;
 	padding-top: 0px;	/*...Temp fix for ugly padding */
     overflow: initial;
+    max-width: 94%;
 }
 .markedPost { /* highlighted reply */
-	background-color: #F0C0B0;
+	background: #D6BAD0;
 	border: 1px solid #BA9DBF;
 	border-left: none;
 	border-top: none;
 	border-radius: 0px;
 	padding-top: 0px;	/*...Temp fix for ugly padding */
     overflow:initial;
+    max-width: 94%;
 }
 span.spoiler:hover { /* spoiler hover */
 	background: #000000;
@@ -154,15 +156,14 @@ span.spoiler:hover { /* spoiler hover */
 
 /* QUICK REPLY */
 #quick-reply table {
-	background-color: #F0E0D6;
+	background-color: #D6DAF0;
 	border: 1px solid #A1A4B4;
 }
 #quick-reply table {
 	padding: 0em;
 }
 #quick-reply th {
-	background-color: #EEAA88;
-    color: #800000;
+	background-color: #9988EE;
 }
 .post-table td {
     padding-bottom: 0em;

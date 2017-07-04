@@ -7,8 +7,12 @@ var themes = [ {
   label : 'Jungle',
   id : 'jungle'
 }, {
-  file : 'yotsuba.css',
+  file : 'yotsuba_b.css',
   label : 'Yotsuba B',
+  id : 'yotsubab'
+}, {
+  file : 'yotsuba.css',
+  label : 'Yotsuba',
   id : 'yotsuba'
 } ];
 
