@@ -12,7 +12,7 @@ var themes = [ {
   id : 'yotsubab'
 }, {
   file : 'yotsuba.css',
-  label : 'Yotsuba',
+  label : 'Yotsuba (NOT COMPLETED)',
   id : 'yotsuba'
 } ];
 
