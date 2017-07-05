@@ -149,7 +149,7 @@ input[type="button"], input[type="submit"], button {
   	max-width: 94%;
 }
 .markedPost { /* highlighted reply */
-	background: #D6BAD0;
+	background: #50313b;
 	border: none;
 	border-left: none;
 	border-top: none;
