@@ -114,13 +114,13 @@ input[type="button"], input[type="submit"], button {
 	color: #DD0000;
 }
 .panelBacklinks a { /* backlinks */
-	color: #34345C;
+	color: #9D4E3F;
 }
 .panelBacklinks a:hover {
 	color: #DD0000;
 }
 .quoteLink, .quoteLink:hover { /* >> */
-	color: #D00D00;
+	color: #9D4E3F;
 	text-decoration: underline;
 }
 .labelRole:before { /* capcode prefix */
@@ -149,7 +149,7 @@ input[type="button"], input[type="submit"], button {
   	max-width: 94%;
 }
 .markedPost { /* highlighted reply */
-	background: #D6BAD0;
+	background: #50313B;
 	border: none;
 	border-left: none;
 	border-top: none;
@@ -198,8 +198,8 @@ nav {
 	color: #AF0A0F;
 }
 .catalogCell {
-	background: #DDE0F0;
-	border: 1px solid #B7B9C4;
+	background: #3C212A;
+	border: none;
 	border-radius: 0px;
 }
 
@@ -247,3 +247,4 @@ input[type=checkbox]#checkboxSpoiler+label:before {
 .linkQuote, .linkSelf {
 	color: #9D4E3F;
 }
+
