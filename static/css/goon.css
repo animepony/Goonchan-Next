@@ -91,7 +91,7 @@ input[type="button"], input[type="submit"], button {
 	font-weight: 400; /* makes timestamp not bold */
 }
 .labelSubject { /* subject */
-	color: #0F0C5D;
+	color: #446655;
 	font-weight: bold; /* needed for catalog */
 }
 .linkName { /* email field, sage */
