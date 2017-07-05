@@ -8,7 +8,7 @@ body {
 hr {
 	border-width:1px medium medium;
 	border-style:solid none none;
-	border-color:#A4815E -moz-use-text-color -moz-use-text-color;
+	border-color:#BFA977;
 	-moz-border-top-colors:none;
 	-moz-border-right-colors:none;
 	-moz-border-bottom-colors:none;
@@ -42,7 +42,7 @@ a:hover, .hideButton:hover, .unhideButton:hover, .embedButton:hover, .navClickab
 
 /* REPLY + MAKE THREAD FIELDS */
 #newPostFieldset, #quick-reply table {
-	border: 1px dashed #BFA977;
+	border: 1px solid #BFA977;
 }
 input, select, textarea {
 	background: #FFFFFF;
@@ -149,7 +149,7 @@ input[type="button"], input[type="submit"], button {
   	max-width: 94%;
 }
 .markedPost { /* highlighted reply */
-	background: #50313B;
+	background: #50313b;
 	border: none;
 	border-left: none;
 	border-top: none;
@@ -165,14 +165,14 @@ span.spoiler:hover { /* spoiler hover */
 
 /* QUICK REPLY */
 #quick-reply table {
-	background-color: #D6DAF0;
-	border: 1px solid #A1A4B4;
+	background-color: #2B181E;
+	border: 1px solid #BFA977;
 }
 #quick-reply table {
 	padding: 0em;
 }
 #quick-reply th {
-	background-color: #9988EE;
+	background-color: #3C212A;
 }
 .post-table td {
     padding-bottom: 0em;
@@ -190,7 +190,7 @@ nav {
 
 /* DELETE AND REPORT */
 .reportFieldset {
-	border: 1px dashed #B7C5D9;
+	border: 1px solid #BFA977;
 }
 
 /* CATALOG */
