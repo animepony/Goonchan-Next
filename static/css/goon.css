@@ -247,3 +247,11 @@ input[type=checkbox]#checkboxSpoiler+label:before {
 .linkQuote, .linkSelf {
 	color: #9D4E3F;
 }
+
+/* For login page, and others*/
+#settingsFieldset {
+  border: 1px solid #BFA977;
+  padding: 1em;
+  display: inline-block;
+  text-align: left;
+}
