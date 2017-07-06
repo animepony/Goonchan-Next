@@ -215,9 +215,9 @@ nav {
 }
 
 /* Watched threads menu box */
-#watchedMenu{
-	background: #D6DAF0;
-	border: 1px dashed #8899AA;
+#watchedMenu {
+    background: #2B181E;
+    border: 1px solid #BFA977;
 }
 
 /* CHECKBOX ON POST FORM */
