@@ -144,7 +144,7 @@ input[type="button"], input[type="submit"], button {
 	border-left: none;
 	border-top: none;
 	border-radius: 0px;
-	padding-top: 0px;	/*...Temp fix for ugly padding */
+	padding-bottom: 0.3em;
   	overflow: initial;
   	max-width: 94%;
 }
@@ -154,7 +154,7 @@ input[type="button"], input[type="submit"], button {
 	border-left: none;
 	border-top: none;
 	border-radius: 0px;
-	padding-top: 0px;	/*...Temp fix for ugly padding */
+	padding-bottom: 0.3em;
     	overflow:initial;
     	max-width: 94%;
 }
