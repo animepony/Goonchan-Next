@@ -50,7 +50,7 @@ if (!DISABLE_JS) {
 var postCallback = function requestComplete(status, data) {
 
   if (status === 'ok') {
-    window.location.pathname = '/' + boardUri + '/res/' + data + '.html';
+    window.location.pathname = '/' + boardUri + '/thread/' + data + '.html';
   } else {
     alert(status + ': ' + JSON.stringify(data));
   }
