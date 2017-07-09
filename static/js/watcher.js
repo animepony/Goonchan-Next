@@ -148,7 +148,7 @@ function iterateWatchedThreads(urls, index) {
 
   var url = urls[index];
 
-  localRequest('/' + url.board + '/res/' + url.thread + '.json',
+  localRequest('/' + url.board + '/thread/' + url.thread + '.json',
       function gotThreadInfo(error, data) {
 
         if (error) {
