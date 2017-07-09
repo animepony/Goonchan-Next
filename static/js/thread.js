@@ -86,7 +86,7 @@ if (!DISABLE_JS) {
 
   var refreshURL = document.getElementById('divMod') ? '/mod.js?boardUri='
       + boardUri + '&threadId=' + threadId + '&json=1' : '/' + boardUri
-      + '/res/' + threadId + '.json';
+      + '/thread/' + threadId + '.json';
 
   if (document.getElementById('controlThreadIdentifier')) {
     document.getElementById('settingsJsButon').style.display = 'inline';
@@ -216,7 +216,7 @@ function transfer() {
 
       alert('Thread moved.');
 
-      var redirect = '/' + informedBoard + '/res/';
+      var redirect = '/' + informedBoard + '/thread/';
 
       window.location.pathname = redirect + data + '.html';
 
@@ -515,7 +515,7 @@ function setPostHideableElements(postCell, post) {
 
 function setPostLinks(postCell, post, boardUri, link, threadId, linkQuote,
     deletionCheckbox) {
-  var linkStart = '/' + boardUri + '/res/' + threadId + '.html#';
+  var linkStart = '/' + boardUri + '/thread/' + threadId + '.html#';
   link.href = linkStart + post.postId;
   linkQuote.href = linkStart + 'q' + post.postId;
 
