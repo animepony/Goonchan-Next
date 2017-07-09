@@ -42,7 +42,7 @@ function addToKnownPostsForBackLinks(posting) {
 
 function addBackLink(quoteUrl, quote) {
 
-  var matches = quoteUrl.match(/\/(\w+)\/res\/\d+\.html\#(\d+)/);
+  var matches = quoteUrl.match(/\/(\w+)\/thread\/\d+\.html\#(\d+)/);
 
   var board = matches[1];
   var post = matches[2];
@@ -85,7 +85,7 @@ function addBackLink(quoteUrl, quote) {
 
       var superContainer = containerPost.parentNode;
 
-      var backLinkUrl = '/' + sourceBoard + '/res/';
+      var backLinkUrl = '/' + sourceBoard + '/thread/';
 
       if (superContainer.className === 'divPosts') {
 
@@ -188,7 +188,7 @@ function processQuote(quote, backLink) {
 
 function loadQuote(tooltip, quoteUrl) {
 
-  var matches = quoteUrl.match(/\/(\w+)\/res\/\d+\.html\#(\d+)/);
+  var matches = quoteUrl.match(/\/(\w+)\/thread\/\d+\.html\#(\d+)/);
 
   var board = matches[1];
   var post = matches[2];
