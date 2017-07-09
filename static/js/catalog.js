@@ -211,7 +211,7 @@ function removeElement(element) {
 }
 
 function setCellThumb(thumbLink, thread) {
-  thumbLink.href = '/' + boardUri + '/res/' + thread.threadId + '.html';
+  thumbLink.href = '/' + boardUri + '/thread/' + thread.threadId + '.html';
 
   if (thread.thumb) {
     var thumbImage = document.createElement('img');

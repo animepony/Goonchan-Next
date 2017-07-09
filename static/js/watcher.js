@@ -261,7 +261,7 @@ function addWatchedCell(board, thread, watchData) {
 
   var label = document.createElement('a');
   label.innerHTML = watchData.label || (board + '/' + thread);
-  label.href = '/' + board + '/res/' + thread + '.html';
+  label.href = '/' + board + '/thread/' + thread + '.html';
   labelWrapper.appendChild(label);
 
   var notification = document.createElement('span');
